@@ -1,4 +1,4 @@
-package exemploThrowThrows;
+package exemploThrowThrows.verificacaoDeIdade;
 
 public class Main {
     public static void main(String[] args) {
