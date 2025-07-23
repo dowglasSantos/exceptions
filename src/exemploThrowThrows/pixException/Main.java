@@ -5,7 +5,7 @@ public class Main {
         System.out.println("Pix Exception");
 
         try {
-
+            Banco banco = Banco.getInstance();
             banco.transferenciaViaPix(1000);
             System.out.println("Transferência realizada com sucesso!");
         } catch (PixException e) {
